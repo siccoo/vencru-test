@@ -1,4 +1,5 @@
 import { FC, ReactElement, SVGProps } from "react";
+import { BadgeStatus } from "../components/badge/Badge";
 
 export interface IData {
   name: string;
@@ -21,6 +22,7 @@ export interface TableBodyProps {
   invoice: string;
   amount: number;
   date: string;
+  status: BadgeStatus;
   id: number;
 }
 
