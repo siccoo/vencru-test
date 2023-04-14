@@ -63,7 +63,7 @@ export const tableBodyData: TableBodyProps[] = [
     id: 3,
     invoice: "Basic Plan – Oct 2022",
     amount: 10.00,
-    date: "Oct 1, 2024",
+    date: "Oct 1, 2022",
     status: "Paid",
   },
   {
