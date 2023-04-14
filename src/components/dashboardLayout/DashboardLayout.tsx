@@ -6,6 +6,8 @@ import { Button } from "../button/Button";
 import { Menu } from "../Icons";
 import SideBar from "../sidebar/Sidebar";
 
+import { SettingsTab } from '../../components/settingsTab/SettingsTab';
+
 interface DashboardLayoutProps {
     children: ReactNode;
 }
@@ -48,6 +50,11 @@ export const DashboardLayout = ({ children }: DashboardLayoutProps) => {
                             }`}
                     >
                         {children}{" "}
+                        <div>
+                            <SettingsTab
+                                pageTitle={"Settings"}
+                                pageSubTitle={"Manage your team and preferences here."} />
+                        </div>
                     </div>
                 </main>
             </>
