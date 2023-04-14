@@ -25,7 +25,7 @@ export const paymentCards: PaymentCardProps[] = [
     cardNumber: 1290,
     type: "Master card",
     expiryDate: "02/35",
-    icon: <Mastercard />,
+    icon: <Mastercard fontSize={"50px"} fill="none" />,
   },
 
   {
@@ -62,6 +62,27 @@ export const tableBodyData: TableBodyProps[] = [
   },
   {
     id: 3,
+    invoice: "Basic Plan – Dec 2022",
+    amount: 21.99,
+    date: "Jan 23, 2024",
+    status: "Paid",
+  },
+  {
+    id: 4,
+    invoice: "Basic Plan – Dec 2022",
+    amount: 10.0,
+    date: "March 1, 2025",
+    status: "Paid",
+  },
+  {
+    id: 5,
+    invoice: "Basic Plan – Dec 2022",
+    amount: 14.0,
+    date: "Feb 25, 2023",
+    status: "Paid",
+  },
+  {
+    id: 6,
     invoice: "Basic Plan – Dec 2022",
     amount: 21.99,
     date: "Jan 23, 2024",
