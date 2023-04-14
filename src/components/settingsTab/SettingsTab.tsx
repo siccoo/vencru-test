@@ -1,7 +1,7 @@
 import { PageHeader } from "../pageHeader/PageHeader";
 import { tabList } from "../../utils/dummyData";
 import { Tab } from "@headlessui/react";
-import Settings from "../page/Settings";
+import Settings from "../../pages/settings/index";
 
 interface SettingsLayoutProps {
     pageTitle: string;

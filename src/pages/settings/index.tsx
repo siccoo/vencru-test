@@ -1,8 +1,9 @@
 import { Button } from "../../components/button/Button";
-Table
-import { Download } from "../Icons";
-import { SectionHeader } from "../molecules";
-import { CardDetails, Contact } from "../organisms";
+import {Table} from "../../components/table/Table";
+import { SectionHeader } from "../../components/sectionHeader/SectionHeader";
+import { CardDetails } from "../../components/cardDetails/CardDetails";
+import { Contact } from "../../components/contact/Contact";
+import { Download } from "../../components/Icons";
 
 const Settings = () => {
   return (
