@@ -10,7 +10,7 @@ export const Table = () => {
   return (
     <div className="overflow-auto rounded-lg shadow-form bg-white">
       <table className=" w-full">
-        <thead className="bg-gray-50 border-y whitespace-nowrap  overflow-x-auto py-3 px-2 border-solid border-gray-200">
+        <thead className="bg-gray-50 border-y whitespace-nowrap  overflow-x-auto py-3 px-2 border-solid border-gray-200 ">
           <tr className="px-6 ">
             <th className="">
               <CheckBox />

@@ -19,7 +19,7 @@ export const Contact = () => {
           checked={selectedContact === "email"}
           label="Send to my account email"
         >
-          <p className="text-gray-500 font-normal text-sm">test@test.com</p>
+          <p className="text-gray-500 font-normal text-sm">olivia@untitledui.com</p>
         </ContactRadio>
 
         <ContactRadio
@@ -32,7 +32,7 @@ export const Contact = () => {
               <div className="absolute top-5 left-4">
                 <Message fill="none" fontSize={"20px"} stroke="#667085" />
               </div>
-              <Input value={"test@test.com"} />
+              <Input value={"billing@untitledui.com"} />
             </div>
           )}
         </ContactRadio>

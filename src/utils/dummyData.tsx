@@ -22,18 +22,17 @@ export const tabList: TabListProps[] = [
 export const paymentCards: PaymentCardProps[] = [
   {
     id: 1,
-    cardNumber: 1290,
-    type: "Master card",
-    expiryDate: "02/35",
-    icon: <Mastercard fontSize={"50px"} fill="none" />,
+    cardNumber: 1234,
+    type: "Visa",
+    expiryDate: "06/2024",
+    icon: <Visa fontSize={"50px"} fill="none" />,
   },
-
   {
     id: 2,
     cardNumber: 1234,
-    type: "Visa",
-    expiryDate: "01/25",
-    icon: <Visa fontSize={"50px"} fill="none" />,
+    type: "Master card",
+    expiryDate: "06/2024",
+    icon: <Mastercard fontSize={"50px"} fill="none" />,
   },
 ];
 

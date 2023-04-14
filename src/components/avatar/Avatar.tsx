@@ -3,21 +3,21 @@ export const Avatar = () => {
     <div>
       <div className="flex -space-x-4">
         <img
-          className="inline-block w-10  h-10 rounded-full border-4 border-white-500 transition duration-300 hover:-translate-y-2"
+          className="inline-block w-10  h-10 rounded-full border-white-500 transition duration-300 hover:-translate-y-2"
           src="/icons/Avatar-2.svg"
           alt="profile"
           width={24}
           height={24}
         />
         <img
-          className="inline-block w-10 h-10  rounded-full border-4 border-white-500 transition duration-300 hover:-translate-y-2"
+          className="inline-block w-10 h-10  rounded-full border-white-500 transition duration-300 hover:-translate-y-2"
           src="/icons/Avatar.svg"
           alt="profile"
           width={24}
           height={24}
         />
         <img
-          className="inline-block w-10 h-10  rounded-full border-4 border-white-500 transition duration-300 hover:-translate-y-2"
+          className="inline-block w-10 h-10  rounded-full border-white-500 transition duration-300 hover:-translate-y-2"
           src="/icons/Avatar-1.svg"
           alt="profile"
           width={24}

@@ -6,7 +6,7 @@ import { PaymentCard } from "../paymentCard/PaymentCard";
 
 export const CardDetails = () => {
     const [defaultPaymentMethod, setDefaultPaymentMethod] =
-        useState("master card");
+        useState("visa");
     return (
         <div className="border-y border-solid border-gray-200 py-5 md:flex justify-between ">
             <div className="mb-5  ">
