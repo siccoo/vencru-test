@@ -21,7 +21,7 @@ import {
 } from "../Icons";
 
 interface SidebarProps {
-    //showNavbar: boolean;
+    // showNavbar: boolean;
 }
 
 const sidebarItems: SidebarData[] = [
